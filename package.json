@@ -1,0 +1,37 @@
+{
+	"name": "blocsonic-bloccast-video-generator",
+	"version": "1.0.0",
+	"description": "A template/preset that utilizes Remotion to generate a 4k video using configuration data.",
+	"scripts": {
+		"start": "remotion preview src/index.jsx",
+		"build": "remotion render --image-format='jpeg' --quality=${QUALITY:-50} src/index.jsx bloccast out/video.mp4",
+		"build:frames": "remotion render --frames=${FRAMES:-0-100} --image-format='jpeg' --quality=${QUALITY:-50} src/index.jsx bloccast out/segment.mp4",
+		"still": "remotion still --frame=${FRAME:-0} src/index.jsx bloccast out/still.png",
+		"lint": "eslint src --ext ts,tsx,js,jsx && tsc",
+		"upgrade": "npm install @remotion/bundler @remotion/cli @remotion/eslint-config @remotion/renderer remotion"
+	},
+	"repository": {},
+	"license": "UNLICENSED",
+	"dependencies": {
+		"@remotion/bundler": "^2.6.8",
+		"@remotion/cli": "^2.6.8",
+		"@remotion/eslint-config": "^2.6.8",
+		"@remotion/renderer": "^2.6.8",
+		"autoprefixer": "^10.4.2",
+		"classnames": "^2.3.1",
+		"eslint": "^7.15.0",
+		"get-average-color": "^0.0.6",
+		"postcss": "^8.4.5",
+		"postcss-loader": "^6.2.1",
+		"postcss-preset-env": "^7.2.0",
+		"prettier": "^2.2.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"remotion": "^2.6.8",
+		"typescript": "4.4.2"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.0",
+		"@types/web": "^0.0.46"
+	}
+}

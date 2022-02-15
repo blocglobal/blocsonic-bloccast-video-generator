@@ -1,0 +1,79 @@
+.Song {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #414042;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: contain;
+}
+
+.Song .details {
+	max-width: 1300px;
+	font-size: 80px;
+	margin-bottom: 1.6em;
+	margin-left: 0.8em;
+	text-align: right;
+}
+
+.Song .artist,
+.Song .title {
+	font-family: 'Antenna-BlackItalic';
+}
+
+.Song .artist {
+	font-size: 1em;
+}
+
+.Song .title {
+	font-size: 1.7em;
+}
+
+.Song .features {
+	font-family: 'Antenna-RegularItalic';
+	font-size: 0.85em;
+}
+
+.Song .release {
+	font-family: 'Antenna-LightItalic';
+	font-size: 0.75em;
+	margin-top: 1em;
+}
+
+.Song .release span {
+	font-family: 'Antenna-BlackItalic';
+}
+
+.Song .date {
+	font-family: 'Antenna-LightItalic';
+	font-size: 0.75em;
+	margin-top: 1em;
+}
+
+.Song .date span {
+	font-family: 'Antenna-BoldItalic';
+}
+
+.Song .cat {
+	font-family: 'Antenna-LightItalic';
+	font-size: 0.75em;
+}
+
+.Song .cat span {
+	font-family: 'Antenna-BoldItalic';
+}
+
+.Song .heat {
+	font-family: 'Antenna-LightItalic';
+	margin-top: 0.75em;
+}
+
+.Song .rank {
+	font-family: 'Antenna-BlackItalic';
+	font-size: 1.35em;
+}

@@ -1,0 +1,22 @@
+.Logos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logos svg {
+  width: 70%;
+  height: auto;
+  overflow: visible;
+}
+
+.Logos svg path {
+  fill: #fec329;
+}
+
+.Logos .mindsear, .Logos .blocsonic {
+  fill: rgba(0, 0, 0, .5);
+}
+

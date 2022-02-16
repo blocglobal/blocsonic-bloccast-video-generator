@@ -14,7 +14,7 @@ const Song = ({
 }) => {
 	const frame = useCurrentFrame();
 	const { durationInFrames } = useVideoConfig();
-	const sectionImage = staticFile(`/${id}.png`);
+	const sectionImage = staticFile(`/${id}.jpg`);
 	const sectionBG = staticFile('/song-bg.png');
 
 	return (

@@ -63,7 +63,7 @@ npm run upgrade
 
 1. Replace the dummy audio file found in `src/assets/audio.wav` with your own.
 2. Supply your own data at `src/data/index.js`.
-3. Supply your own section images in `public`. (`song` and `interview` section images should be named the same as the section’s `id` attribute)
+3. Supply your own section images in `public`. (`song` and `interview` section .jpg images should be named the same as the section’s `id` attribute)
 4. Preview or render using any of the above commands
 
 ## Required data:

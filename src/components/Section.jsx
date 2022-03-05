@@ -22,7 +22,7 @@ const Section = ({ section, audioFrame }) => {
 	}
 
 	if (section.type === 'song') {
-		sectionImage = staticFile(`/${section.id}.png`);
+		sectionImage = staticFile(`/${section.id}.jpg`);
 		return (
 			<div className="Section">
 				<Grain image={sectionImage} />

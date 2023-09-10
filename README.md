@@ -56,7 +56,7 @@ FRAME=100 npm run still
 
 **Upgrade Remotion to the latest version
 ```console
-npm run upgrade
+npx remotion upgrade
 ```
 
 ## Instructions
